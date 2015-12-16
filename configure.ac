@@ -1,9 +1,10 @@
 AC_PREREQ(2.60)
 
 # Set version from contents of "VERSION_CURRENT" file.
-AC_INIT([libbson],
-        m4_esyscmd_s(cat VERSION_CURRENT),
-        [https://jira.mongodb.org/browse/CDRIVER])
+#AC_INIT([libbson],
+#        m4_esyscmd_s(cat VERSION_CURRENT),
+#        [https://jira.mongodb.org/browse/CDRIVER])
+AC_INIT([libbson],[bson_version],[https://github.com/mongodb/libbson/issues])
 
 m4_include([build/autotools/Versions.m4])
 
